@@ -12,9 +12,6 @@ namespace MovieRegustration.Controllers
     public class HomeController : Controller
     {
 
-
-      MovieDbContext movieDb = new MovieDbContext();
-
         public IActionResult Index()
         {
             return View();
